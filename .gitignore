@@ -1,0 +1,22 @@
+# Ignore node_modules in both frontend and backend
+backend/node_modules/
+frontend/node_modules/
+
+# Optional: Ignore environment files
+*.env
+
+# Ignore build/dist folders if you have them
+backend/dist/
+frontend/dist/
+frontend/build/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
