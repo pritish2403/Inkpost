@@ -22,7 +22,7 @@ function App() {
           <Router>
             <Navbar />
             <Routes>
-              <Route path="/" element={<Register />} />
+              <Route path="/" element={<Home />} />
               <Route path="/register" element={<Register />} />
               <Route path="/login" element={<Login />} />
               <Route path="/create" element={<ProtectedRoute><CreateBlog /></ProtectedRoute>} />
